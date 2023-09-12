@@ -31,8 +31,8 @@
       { "site": "ffffm_default", "name": "Default" }
     ],
     "domainNames": [
-      { "site": "ffffm_60431", "name": "60431 Frankfurt am Main" } ,
-      { "site": "ffffm_default", "name": "Default" }
+      { "domain": "ffffm_60431", "name": "60431 Frankfurt am Main" } ,
+      { "domain": "ffffm_default", "name": "Default" }
     ],
     "nodeInfos": [
       {

@@ -115,6 +115,8 @@ export const Link = function (el: HTMLElement, linkData: [LinkData, ...LinkData[
           createChartVNode(chart, {
             source: linkData[0].source.node_id,
             target: linkData[0].target.node_id,
+            sourceMac: linkData[0].source_mac ? linkData[0].source_mac : linkData[0].source_addr,
+            targetMac: linkData[0].target_mac ? linkData[0].target_mac : linkData[0].target_addr,
           }),
         ]);
         newContainer.children!.push(h("div", charts));
